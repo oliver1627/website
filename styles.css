@@ -1,0 +1,117 @@
+/* Reset some default styles */
+body {
+    margin: 5px;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    Color:white;
+    Background-color:black;
+}
+
+/* Style the header and navbar */
+header {
+    background-color: black;
+    color: #fff;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+    margin: 0 auto;
+    Padding:0;
+}
+
+
+/* Style the navigation list */
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin: 0 15px;
+left: 0;
+Color: black;
+
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    transition: color 0.2s;
+}
+
+.nav-list li a:hover {
+    color: blue;
+}
+
+/* Style the dropdown menu */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    min-width: 150px;
+    z-index: 1000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li {
+    padding: 9px;
+   
+}
+
+.dropdown-content li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dropdown-content li a:hover {
+    background-color: black;
+}
+
+.image {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color: white;
+
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+ 
+}
+
