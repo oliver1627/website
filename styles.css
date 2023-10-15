@@ -48,7 +48,7 @@ Color: black;
     text-decoration: none;
     color: white;
     font-size: 12px;
-    transition: color 0.2s;
+    transition: color 0.4s;
 }
 
 .nav-list li a:hover {
